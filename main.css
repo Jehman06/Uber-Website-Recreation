@@ -1,0 +1,217 @@
+
+/* * {
+    border: solid 1px teal;
+} */
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    background: black;
+    color: white;
+    justify-items: center;
+    height: 50px;
+    overflow: hidden;
+  }
+
+.uber {
+    margin-left: 20px;
+}
+
+.signup {
+    margin-right: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.wrap > * {
+    align-self: center;
+}
+
+.wrap-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#bars {
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+#utensils {
+    margin-right: 80px;
+}
+
+.wrap-options {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    justify-items: auto;
+    margin-bottom: 30px;
+}
+
+.drive {
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 70px;
+}
+
+.eat {
+    margin-right: 65px;
+}
+
+/* Header icons animations */
+.login:hover {
+    background-color: grey;
+}
+
+.signup:hover {
+    background-color: grey;
+}
+
+.drive:hover {
+    color: grey;
+}
+
+.eat:hover {
+    color: grey;
+}
+
+.ride:hover {
+    color: grey;
+}
+
+.sign-up-to-drive:hover {
+    background-color: grey;
+}
+
+.get-in, .active-riders, .driving-delivering {
+    margin-left: 30px;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.active-riders {
+    margin-top: 30px;;
+}
+
+.driving-delivering {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 18px;
+    border: none;
+}
+
+.sign-up-to-drive {
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    font-size: 1em;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.learn-more-driving {
+    height: 45px;
+    line-height: 48px;
+}
+
+img {
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    position: relative;
+    margin-bottom: 60px;
+    height: 435px;
+}
+
+.img-container > img {
+    transform: scaleX(-1);
+}
+
+.business {
+    position: absolute;
+    top: 80px;
+    font-size: 28px;
+}
+
+.business-text {
+    position: absolute;
+    top: 200px;
+    font-size: 17px;
+}
+
+.see-how {
+    position: absolute;
+    top: 325px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.business, .business-text, .see-how {
+    margin-left: 30px;
+}
+
+.save {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.zero-delivery {
+    width: 700px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.terms-apply {
+    width: 700px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.sign-up-to-save {
+    height: 45px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.save, .zero-delivery, .terms-apply, .sign-up-to-save {
+    margin-left: 30px;
+}
+
